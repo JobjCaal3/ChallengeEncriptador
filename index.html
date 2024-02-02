@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Desencriptador</title>
+</head>
+<body>
+    <header class="encabezado">
+        <img src="imagenes/Logo.png" alt="Logo de alura" id="logocabeza">
+        <h1>Challenge--Desencriptador</h1>
+    </header>
+    <main>
+        <section>
+            <textarea type="texto" id="Cuadro1" cols="70" rows="10" placeholder="Ingrese el texto aquí" class="Texto"></textarea>
+            <textarea type="texto" id="Cuadro2" cols="25" rows="20" placeholder="Texto encriptado" class="Texto" readonly></textarea>
+        </section>
+        <div class="botones">
+            <button onclick="EncriptarMensaje();" class="boton" id="boton1">Encriptar Texto</button>
+            <button onclick="DesencriptarMensaje();" class="boton" id="boton2">Desencriptar Texto</button>
+            <button onclick="CopiarTexto();" class="boton" id="boton3">Copiar Texto</button>
+        </div>
+    </main>
+    <footer class="pie">
+        <img src="imagenes/Logo.png" alt="Logo de alura" id="logopie">
+        <p class="Textopie">Este Contenido le pertenece a Job Juarez</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
